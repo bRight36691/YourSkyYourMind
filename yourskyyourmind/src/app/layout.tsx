@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="relative mx-auto min-h-screen w-full max-w-md overscroll-none">{children}</body>
     </html>
   );
 }

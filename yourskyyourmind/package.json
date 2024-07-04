@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/react-howler": "^5.2.3",
+    "clsx": "^2.1.1",
     "framer-motion": "^11.2.12",
     "html-to-image": "^1.11.11",
     "next": "14.2.4",
@@ -17,6 +18,7 @@
     "react-dom": "^18",
     "react-howler": "^5.2.0",
     "styled-components": "^6.1.11",
+    "tailwind-merge": "^2.3.0",
     "ua-parser-js": "^1.0.38",
     "uuid": "^10.0.0",
     "zod": "^3.23.8"
@@ -25,6 +27,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "daisyui": "^4.12.10",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "postcss": "^8",
