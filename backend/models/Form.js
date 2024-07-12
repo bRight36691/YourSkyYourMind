@@ -44,8 +44,8 @@ const FormSchema = new mongoose.Schema(
       },
     },
 
+    // 2-1 to 2-9
     cbiss: {
-      // canva #20
       personalBurnout: {
         cbissQ1: {
           type: Number,
@@ -67,8 +67,7 @@ const FormSchema = new mongoose.Schema(
         },
       },
 
-      // canva #21
-      studyRelatedBurnout: {
+      studyRelatedBurnout1: {
         cbissQ7: {
           type: Number,
         },
@@ -92,7 +91,6 @@ const FormSchema = new mongoose.Schema(
         },
       },
 
-      // canva #23
       colleagueRelatedBurnout: {
         cbissQ14: {
           type: Number,
@@ -114,7 +112,6 @@ const FormSchema = new mongoose.Schema(
         },
       },
 
-      // canva #25
       teacherRelatedBurnout: {
         cbissQ20: {
           type: Number,
@@ -235,7 +232,7 @@ const FormSchema = new mongoose.Schema(
       },
     },
 
-    // canva #27-28
+    // 2-11 to 2-13
     dreem12: {
       learningFormat: {
         dreem12Q1: {
