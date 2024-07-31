@@ -6,7 +6,6 @@ const {
   getBankAccounts,
 } = require("../controllers/bankAccounts");
 
-// router.route("/").get(getBankAccounts).post(createBankAccount);
 router.route("/").post(createBankAccount);
 
 module.exports = router;

@@ -9,7 +9,6 @@ const {
   getNonMedForms,
 } = require("../controllers/forms");
 
-// router.route("/").get(getForms).post(createForm);
 router.route("/").post(createForm);
 router.route("/burnout").get(getAvgBurnoutScore);
 // router.route("/med").get(getMedForms);
