@@ -36,7 +36,13 @@ const limiter = rateLimit({
 app.use(limiter);
 
 app.use(hpp());
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["yourskyyourmind-backend.vercel.app"],
+    methods: ["POST","GET"],
+    credentials: true
+  }
+));
 
 //Mount routers
 app.use("/api/v1/form", form);
