@@ -38,7 +38,7 @@ app.use(limiter);
 app.use(hpp());
 app.use(cors(
   {
-    origin: ["yourskyyourmind-frontend.vercel.app"],
+    origin: ["https://yourskyyourmind-frontend.vercel.app/"],
     methods: ["POST","GET"],
     credentials: true
   }
