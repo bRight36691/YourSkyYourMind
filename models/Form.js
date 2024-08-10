@@ -16,17 +16,14 @@ const FormSchema = new mongoose.Schema(
     age: {
       type: Number,
     },
-    sex: {
-      type: Number,
-    },
-    mentalDisorder: {
-      type: Number,
-    },
     occupation: {
       type: String,
     },
 
     // 1-4_1
+    sex: {
+      type: Number,
+    },
     gpax: {
       type: Number,
     },
@@ -37,6 +34,29 @@ const FormSchema = new mongoose.Schema(
       type: Number,
     },
     year: {
+      type: Number,
+    },
+
+    // 1-4_2
+    mentalDisorder: {
+      type: Number,
+    },
+    moreMentalDisorder: {
+      type: String,
+    },
+    financialStatus: {
+      type: Number,
+    },
+    sleepHour: {
+      type: Number,
+    },
+    exerciseDay: {
+      type: Number,
+    },
+    cigarette: {
+      type: Number,
+    },
+    alcoholicDrink: {
       type: Number,
     },
 
