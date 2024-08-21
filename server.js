@@ -36,13 +36,17 @@ const limiter = rateLimit({
 app.use(limiter);
 
 app.use(hpp());
-app.use(cors(
-  {
-    origin: ["https://yourskyyourmind.com","https://your-sky-your-mind-project-frontend.vercel.app"],
-    methods: ["POST","GET"],
-    credentials: true
-  }
-));
+app.use(
+  cors({
+    origin: [
+      "https://yourskyyourmind.com",
+      "https://your-sky-your-mind-project-frontend.vercel.app",
+      "https://project-your-sky-your-mind-frontend.vercel.app",
+    ],
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 
 //Mount routers
 app.use("/api/v1/form", form);
