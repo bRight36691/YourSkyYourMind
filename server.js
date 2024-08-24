@@ -41,6 +41,7 @@ app.use(
     origin: [
       "https://yourskyyourmind.com",
       "https://your-sky-your-mind-project-frontend.vercel.app",
+      "https://your-sky-your-mind-frontend.vercel.app",
       "https://project-your-sky-your-mind-frontend.vercel.app",
     ],
     methods: ["POST", "GET"],
